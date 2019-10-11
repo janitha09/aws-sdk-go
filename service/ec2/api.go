@@ -31572,7 +31572,7 @@ func (c *EC2) RunInstancesRequest(input *RunInstancesInput) (req *request.Reques
 //    from your default VPC for you. If you don't have a default VPC, you must
 //    specify a subnet ID in the request.
 //
-//    * [EC2-Classic] If don't specify an Availability Zone, we choose one for
+//    * [EC2-Classic] If you don't specify an Availability Zone, we choose one for
 //    you.
 //
 //    * Some instance types must be launched into a VPC. If you do not have
